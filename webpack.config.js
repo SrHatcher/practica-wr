@@ -41,8 +41,8 @@ module.exports={
                 test: /\.s?[ac]ss$/,
                 use: [
                     'css-loader',
-                    'style-loader',
-                    'sass-loader'
+                    'sass-loader',
+                    'style-loader'
                 ]
             }
         ]
